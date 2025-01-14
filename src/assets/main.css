@@ -1,0 +1,42 @@
+@import './base.css';
+
+:root {
+  --main-black: #1a1a1a;
+  --main-orange: #ff6900;
+  --light-grey: #efeff0;
+  --dark-grey: #666666;
+  --header-top-height: 32px;
+  --header-bottom-height: 60px;
+  --footer-height: 60px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--main-black);
+}
+
+.container {
+  /* Permettre à ce bloc de se rétrécir en même temps que la fenêtre du navigateur si besoin */
+  max-width: 1200px;
+  /* Centrer le bloc sur l'axe horizontal de la fenêtre */
+  margin: 0 auto;
+  /* Bordure temporaire pour visualiser le wrapper */
+  /* border: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
