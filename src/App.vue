@@ -64,8 +64,8 @@ const addToCart = (product) => {
 
 .container > div {
   width: 50%;
-  /* Bordure temporaire pour visualiser le bloc */
-  border: 1px solid green;
+  /* Bordure temporaire pour visualiser le bloc
+  border: 1px solid green; */
 }
 
 .container > div:last-child {
